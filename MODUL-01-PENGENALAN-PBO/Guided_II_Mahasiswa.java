@@ -10,9 +10,9 @@ class Mahasiswa {
         try {
             System.out.println("-Input Data Mahasiswa-");
             for (i = 0; i < 3; i++) {
-                System.out.println("Masukkan Nama : ");
+                System.out.print("Masukkan Nama : ");
                 Nama[i] = input.nextLine();
-                System.out.println("Masukkan NIM : ");
+                System.out.print("Masukkan NIM : ");
                 NIM[i] = input.nextLine();
             }
             input.close();
